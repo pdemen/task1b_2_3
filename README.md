@@ -9,10 +9,12 @@
 Для заданий 1б, 2 используются файлы /views/index.pug и /views/filelist.pug для генерации HTML-страниц, а также файлы /routes/index.js и /routes/users.js для реализации логики работы приложения.
 
 `res.send(JSON.stringify(jsonbuf));` - для задания 1б
+
 `res.render("filelist", {
        title: "File list view",
        response: jsonbuf
      })` - для задания 2
+     
 ## Задание 3:
 ### Написать такой запрос (один), который вернет фасет по моделям самолетов (model) и количеству полетов (flights). Для этого Нужно использовать данные из таблиц flights и aircrafts_data.
 
